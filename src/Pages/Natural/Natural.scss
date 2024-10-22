@@ -1,0 +1,61 @@
+// Natural.scss
+
+.natural-container {
+    padding: 20px;
+    background-color: #f9f9f9;
+  
+    .natural-title {
+      text-align: center;
+      margin-bottom: 30px;
+      font-size: 2.5rem;
+      color: #4a4a4a;
+    }
+  
+    .natural-row {
+      display: flex;
+      justify-content: center;
+    }
+  
+    .natural-col {
+      margin-bottom: 20px;
+    }
+  
+    .orchid-card {
+      border: none;
+      border-radius: 10px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      overflow: hidden;
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+  
+      &:hover {
+        transform: translateY(-5px);
+        box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+      }
+  
+      .orchid-img {
+        height: 200px;
+        object-fit: cover;
+        border-bottom: 1px solid #ddd;
+      }
+  
+      .orchid-body {
+        padding: 20px;
+        background-color: #fff;
+        
+        .orchid-name {
+          font-size: 1.5rem;
+          color: #333;
+        }
+  
+        .orchid-info {
+          font-size: 1rem;
+          color: #666;
+  
+          strong {
+            color: #333;
+          }
+        }
+      }
+    }
+  }
+  

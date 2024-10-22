@@ -1,0 +1,48 @@
+.about-page {
+    padding: 20px;
+  
+    &.light {
+      background-color: #fff;
+      color: #000;
+  
+      .about-section {
+        background-color: #f9f9f9;
+        border: 1px solid #ddd;
+      }
+    }
+  
+    &.dark {
+      background-color: #333;
+      color: #fff;
+  
+      .about-section {
+        background-color: #444;
+        border: 1px solid #555;
+      }
+    }
+  
+    h1 {
+      font-size: 3.5rem; 
+    }
+  
+    p {
+      font-size: 1.6rem; 
+      line-height: 1.8;  
+    }
+  
+    .about-section {
+      padding: 20px;
+      margin-bottom: 20px;
+      border-radius: 8px;
+  
+      h2 {
+        font-size: 2.5rem;
+      }
+  
+      p {
+        font-size: 1.4rem; 
+        line-height: 1.7;  
+      }
+    }
+  }
+  

@@ -1,0 +1,63 @@
+.detail-container {
+  .detail-block {
+    margin: 100px 0 0 0;
+    box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.1);
+    .image-block {
+      .orchid-image {
+        height: 70%;
+        width: 100%;
+        aspect-ratio: 1.5/1;
+        border-radius: 16px 0 0 16px;
+      }
+    }
+    .content-block {
+      display: flex;
+      flex-direction: column;
+      padding: 0 20px;
+      color: #9a9a9c;
+      font-size: 20px;
+      .content {
+        line-height: 60px;
+      }
+      .orchid-name {
+        color: #31363c;
+        font-size: 50px;
+        overflow: hidden;
+        text-wrap: nowrap;
+        text-overflow: ellipsis;
+      }
+    }
+
+    .button-block {
+      display: flex;
+      justify-content: center;
+      gap: 50px;
+      margin: 20px 0 0 0;
+
+      .button-link {
+        text-decoration: none;
+        .button-container {
+          background-color: transparent;
+          width: 250px;
+          height: 40px;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          font-size: 14px;
+          font-weight: 700;
+          color: #31363c;
+          border-radius: 3px;
+          border: #ccc 2px solid;
+          box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+          transition: .2s;
+          
+          &:hover {
+            background-color: #31363c;
+            color: #fff;
+            transform: scale(1.02);
+          }
+        }
+      }
+    }
+  }
+}
